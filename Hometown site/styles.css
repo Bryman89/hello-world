@@ -3,7 +3,7 @@ body {
   background-color: #1D3557;
   margin: auto;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,4 +101,50 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+
+@media (max-width: 1172px) {
+
+
+  #activity-cards {
+    flex-wrap: wrap;
+  }
+
+  #hero h1 {
+    font-size: 24px;
+  }
+
+  #hero h2 {
+    font-size: 20px;
+    margin: 0 20px;
+  }
+
+  #activity-section h3 {
+    width: 200px;
+  }
+
+  .activity {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 803px) {
+  .container {
+    width: 80%;
+  }
+
+  #guide {
+    width: 60%;
+    height: 400px;
+    flex-direction: column;
+
+  }
+}
+
+@media (max-width: 436px) {
+  #guide {
+    width: 80%;
+  }
 }
